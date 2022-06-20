@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid y full reponsive</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
-    <div class="box header">
-        <img src="./assets/img/logo.png"/>
+    <div class="box header logo">
+        <img src="./assets/img/logo.png"data-aos="zoom-out"/>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="./assets/pages/eventos.html">Eventos</a></li>
             <li><a href="./assets/pages/contacto.html">Contacto</a></li>
         </ul>
     </div>
-    <div class="box content">  
-    <p>Ayudanos para crecer</p>
-    <img src="./assets/img/donate2.png" alt="">
+    <div class="box content" data-aos="fade-up"
+    data-aos-duration="3000">  
     <div>    
         <p>Novedades de Julio</p>
-        <img src=".//assets/img/novedades.jpg" alt="">
+        <img src="./assets/img/libros.jpg" alt="">
+        <div>    
+            <p>Aniversario Borges</p>
+            <img src="./assets/img/borges2.jpg" alt="">
+            </div>
         </div>
     </div>
     <div class="footer">
@@ -37,5 +41,9 @@
         <p><h6>Biblioteca Popular San Martín - Todos los derechos reservados</h6></p>
         </div>
   </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
